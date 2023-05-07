@@ -10,11 +10,13 @@ class Field:
 
 
 class Name(Field):
-    pass
+    def __init__(self, value=None):
+        super().__init__(value)
 
 
 class Phone(Field):
-    pass
+    def __init__(self, value=None):
+        super().__init__(value)
 
 
 class Record:
